@@ -57,11 +57,14 @@ Example output:
 (0.0, 1.0)
 ```
 
-# For a complete runnable example see:
+For a complete runnable example see:
 examples/basic_simulation.py
 
-# Run it with:
+Run it with:
+
+```bash
 python examples/basic_simulation.py
+```
 
 ---
 
