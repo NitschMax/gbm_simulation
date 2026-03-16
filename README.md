@@ -57,6 +57,12 @@ Example output:
 (0.0, 1.0)
 ```
 
+# For a complete runnable example see:
+examples/basic_simulation.py
+
+# Run it with:
+python examples/basic_simulation.py
+
 ---
 
 ## Project Structure
