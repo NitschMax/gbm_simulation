@@ -1,6 +1,6 @@
 from .gbm import GBM
 
-class ParameterSet:
+class SimulationConfig:
     def __init__(self, mu, sigma, T, steps):
         self.__params = (float(mu), float(sigma), float(T), int(steps))
 
@@ -9,7 +9,7 @@ class ParameterSet:
         return self.__params
 
     def __eq__(self, other):
-        if isinstance(other, ParameterSet):
+        if isinstance(other, SimulationConfig):
             return self.params == other.params
         else:
             return NotImplemented

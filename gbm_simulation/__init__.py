@@ -1,5 +1,5 @@
 from .gbm import GBM
 from .path import Path
-from .parameters import ParameterSet
+from .simulationconfig import SimulationConfig
 
-__all__ = ['GBM', 'Path', 'ParameterSet']
+__all__ = ['GBM', 'Path', 'SimulationConfig']
